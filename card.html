@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-blue-200 w-screen h-screen">
+    <div class="text-center text-blue-500 text-3xl font-bold bg-blue-100 py-10">
+      Hello, Tailwind
+    </div>
+
+    <div
+      class="max-w-6xl relative bg-white mx-auto mt-20 h-[1500px] rounded-md shadow-xl"
+    >
+      <!-- xl = 576px -->
+      <!-- lg = 512px -->
+      <!-- md = 448px -->
+      <!-- sm = 384px -->
+      <!-- xs = 320px -->
+
+      <div class="flex flex-col gap-y-4">
+        <div class="w-[576px] bg-blue-500 rounded">w-xl</div>
+        <div class="w-lg bg-blue-500 rounded">w-lg</div>
+        <div class="w-md bg-blue-500 rounded">w-md</div>
+        <div class="w-sm bg-blue-500 rounded">w-sm</div>
+        <div class="w-xs bg-blue-500 rounded">w-xs</div>
+        <div class="w-2xs bg-blue-500 rounded">w-2xs</div>
+        <div class="w-3xs bg-blue-500 rounded">w-3xs</div>
+      </div>
+
+      <div class="flex mt-10 gap-x-10 absolute bottom-100">
+        <div class="h-96 bg-blue-500 rounded">h-96</div>
+        <div class="h-80 bg-blue-500 rounded">h-80</div>
+        <div class="h-64 bg-blue-500 rounded">h-64</div>
+        <div class="h-48 bg-blue-500 rounded">h-48</div>
+        <div class="h-40 bg-blue-500 rounded">h-40</div>
+        <div class="h-32 bg-blue-500 rounded">h-32</div>
+        <div class="h-24 bg-blue-500 rounded">h-24</div>
+      </div>
+    </div>
+  </body>
+</html>
